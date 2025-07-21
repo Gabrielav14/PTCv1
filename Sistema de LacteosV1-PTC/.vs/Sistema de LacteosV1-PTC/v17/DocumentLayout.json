@@ -1,0 +1,574 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E2AC2DEF-37FC-4BA8-8D45-7A8980FCFB33}|Vistas\\Vistas.csproj|C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\vistas\\fromularios\\empleado\\frmcontrolfechas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E2AC2DEF-37FC-4BA8-8D45-7A8980FCFB33}|Vistas\\Vistas.csproj|solutionrelative:vistas\\fromularios\\empleado\\frmcontrolfechas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2AC2DEF-37FC-4BA8-8D45-7A8980FCFB33}|Vistas\\Vistas.csproj|C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\vistas\\fromularios\\empleado\\frmverventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2AC2DEF-37FC-4BA8-8D45-7A8980FCFB33}|Vistas\\Vistas.csproj|solutionrelative:vistas\\fromularios\\empleado\\frmverventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2AC2DEF-37FC-4BA8-8D45-7A8980FCFB33}|Vistas\\Vistas.csproj|C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\vistas\\fromularios\\administrador\\frmdashboardadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2AC2DEF-37FC-4BA8-8D45-7A8980FCFB33}|Vistas\\Vistas.csproj|solutionrelative:vistas\\fromularios\\administrador\\frmdashboardadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2AC2DEF-37FC-4BA8-8D45-7A8980FCFB33}|Vistas\\Vistas.csproj|c:\\users\\gabym\\onedrive\\escritorio\\ptc definitivo 50% - copia\\sistema de lacteosv1-ptc\\vistas\\fromularios\\empleado\\frmgestionarproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2AC2DEF-37FC-4BA8-8D45-7A8980FCFB33}|Vistas\\Vistas.csproj|solutionrelative:vistas\\fromularios\\empleado\\frmgestionarproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2AC2DEF-37FC-4BA8-8D45-7A8980FCFB33}|Vistas\\Vistas.csproj|C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\vistas\\fromularios\\empleado\\frmgestionarproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E2AC2DEF-37FC-4BA8-8D45-7A8980FCFB33}|Vistas\\Vistas.csproj|solutionrelative:vistas\\fromularios\\empleado\\frmgestionarproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2AC2DEF-37FC-4BA8-8D45-7A8980FCFB33}|Vistas\\Vistas.csproj|C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\vistas\\fromularios\\administrador\\frmreportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2AC2DEF-37FC-4BA8-8D45-7A8980FCFB33}|Vistas\\Vistas.csproj|solutionrelative:vistas\\fromularios\\administrador\\frmreportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2AC2DEF-37FC-4BA8-8D45-7A8980FCFB33}|Vistas\\Vistas.csproj|C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\vistas\\fromularios\\administrador\\frmreportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E2AC2DEF-37FC-4BA8-8D45-7A8980FCFB33}|Vistas\\Vistas.csproj|solutionrelative:vistas\\fromularios\\administrador\\frmreportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2AC2DEF-37FC-4BA8-8D45-7A8980FCFB33}|Vistas\\Vistas.csproj|C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\vistas\\fromularios\\administrador\\frmregistrarempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E2AC2DEF-37FC-4BA8-8D45-7A8980FCFB33}|Vistas\\Vistas.csproj|solutionrelative:vistas\\fromularios\\administrador\\frmregistrarempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2AC2DEF-37FC-4BA8-8D45-7A8980FCFB33}|Vistas\\Vistas.csproj|C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\vistas\\fromularios\\empleado\\frmdashboardempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E2AC2DEF-37FC-4BA8-8D45-7A8980FCFB33}|Vistas\\Vistas.csproj|solutionrelative:vistas\\fromularios\\empleado\\frmdashboardempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2AC2DEF-37FC-4BA8-8D45-7A8980FCFB33}|Vistas\\Vistas.csproj|C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\vistas\\fromularios\\empleado\\frmregistrarventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E2AC2DEF-37FC-4BA8-8D45-7A8980FCFB33}|Vistas\\Vistas.csproj|solutionrelative:vistas\\fromularios\\empleado\\frmregistrarventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2AC2DEF-37FC-4BA8-8D45-7A8980FCFB33}|Vistas\\Vistas.csproj|C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\vistas\\fromularios\\empleado\\frmreportesempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E2AC2DEF-37FC-4BA8-8D45-7A8980FCFB33}|Vistas\\Vistas.csproj|solutionrelative:vistas\\fromularios\\empleado\\frmreportesempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2AC2DEF-37FC-4BA8-8D45-7A8980FCFB33}|Vistas\\Vistas.csproj|C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\vistas\\fromularios\\empleado\\frmverventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E2AC2DEF-37FC-4BA8-8D45-7A8980FCFB33}|Vistas\\Vistas.csproj|solutionrelative:vistas\\fromularios\\empleado\\frmverventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2AC2DEF-37FC-4BA8-8D45-7A8980FCFB33}|Vistas\\Vistas.csproj|C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\vistas\\fromularios\\empleado\\frmverproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2AC2DEF-37FC-4BA8-8D45-7A8980FCFB33}|Vistas\\Vistas.csproj|solutionrelative:vistas\\fromularios\\empleado\\frmverproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2AC2DEF-37FC-4BA8-8D45-7A8980FCFB33}|Vistas\\Vistas.csproj|C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\vistas\\fromularios\\empleado\\frmverproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E2AC2DEF-37FC-4BA8-8D45-7A8980FCFB33}|Vistas\\Vistas.csproj|solutionrelative:vistas\\fromularios\\empleado\\frmverproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7445B70-C2E0-43F7-BAB3-2E1F1B7F6C27}|Modelos\\Modelos.csproj|C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\modelos\\entidades\\tipoproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7445B70-C2E0-43F7-BAB3-2E1F1B7F6C27}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\tipoproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7445B70-C2E0-43F7-BAB3-2E1F1B7F6C27}|Modelos\\Modelos.csproj|C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\modelos\\entidades\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7445B70-C2E0-43F7-BAB3-2E1F1B7F6C27}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7445B70-C2E0-43F7-BAB3-2E1F1B7F6C27}|Modelos\\Modelos.csproj|C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\modelos\\entidades\\proveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7445B70-C2E0-43F7-BAB3-2E1F1B7F6C27}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\proveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7445B70-C2E0-43F7-BAB3-2E1F1B7F6C27}|Modelos\\Modelos.csproj|C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\modelos\\entidades\\unidadmedida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7445B70-C2E0-43F7-BAB3-2E1F1B7F6C27}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\unidadmedida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7445B70-C2E0-43F7-BAB3-2E1F1B7F6C27}|Modelos\\Modelos.csproj|C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\modelos\\entidades\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7445B70-C2E0-43F7-BAB3-2E1F1B7F6C27}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7445B70-C2E0-43F7-BAB3-2E1F1B7F6C27}|Modelos\\Modelos.csproj|C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\modelos\\entidades\\detalleventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7445B70-C2E0-43F7-BAB3-2E1F1B7F6C27}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\detalleventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7445B70-C2E0-43F7-BAB3-2E1F1B7F6C27}|Modelos\\Modelos.csproj|C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\modelos\\entidades\\detallecompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7445B70-C2E0-43F7-BAB3-2E1F1B7F6C27}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\detallecompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7445B70-C2E0-43F7-BAB3-2E1F1B7F6C27}|Modelos\\Modelos.csproj|C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\modelos\\entidades\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7445B70-C2E0-43F7-BAB3-2E1F1B7F6C27}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7445B70-C2E0-43F7-BAB3-2E1F1B7F6C27}|Modelos\\Modelos.csproj|C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\modelos\\entidades\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7445B70-C2E0-43F7-BAB3-2E1F1B7F6C27}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7445B70-C2E0-43F7-BAB3-2E1F1B7F6C27}|Modelos\\Modelos.csproj|C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\modelos\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7445B70-C2E0-43F7-BAB3-2E1F1B7F6C27}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7445B70-C2E0-43F7-BAB3-2E1F1B7F6C27}|Modelos\\Modelos.csproj|C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\modelos\\entidades\\roluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7445B70-C2E0-43F7-BAB3-2E1F1B7F6C27}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\roluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2AC2DEF-37FC-4BA8-8D45-7A8980FCFB33}|Vistas\\Vistas.csproj|C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\vistas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2AC2DEF-37FC-4BA8-8D45-7A8980FCFB33}|Vistas\\Vistas.csproj|solutionrelative:vistas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2AC2DEF-37FC-4BA8-8D45-7A8980FCFB33}|Vistas\\Vistas.csproj|C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\vistas\\fromularios\\administrador\\frmgestionarproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E2AC2DEF-37FC-4BA8-8D45-7A8980FCFB33}|Vistas\\Vistas.csproj|solutionrelative:vistas\\fromularios\\administrador\\frmgestionarproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7445B70-C2E0-43F7-BAB3-2E1F1B7F6C27}|Modelos\\Modelos.csproj|C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\modelos\\conexion\\conexiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7445B70-C2E0-43F7-BAB3-2E1F1B7F6C27}|Modelos\\Modelos.csproj|solutionrelative:modelos\\conexion\\conexiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2AC2DEF-37FC-4BA8-8D45-7A8980FCFB33}|Vistas\\Vistas.csproj|C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\vistas\\fromularios\\administrador\\frmverproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E2AC2DEF-37FC-4BA8-8D45-7A8980FCFB33}|Vistas\\Vistas.csproj|solutionrelative:vistas\\fromularios\\administrador\\frmverproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2AC2DEF-37FC-4BA8-8D45-7A8980FCFB33}|Vistas\\Vistas.csproj|C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\vistas\\fromularios\\administrador\\frmdashboardadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E2AC2DEF-37FC-4BA8-8D45-7A8980FCFB33}|Vistas\\Vistas.csproj|solutionrelative:vistas\\fromularios\\administrador\\frmdashboardadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2AC2DEF-37FC-4BA8-8D45-7A8980FCFB33}|Vistas\\Vistas.csproj|C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\vistas\\fromularios\\administrador\\frmcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E2AC2DEF-37FC-4BA8-8D45-7A8980FCFB33}|Vistas\\Vistas.csproj|solutionrelative:vistas\\fromularios\\administrador\\frmcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2AC2DEF-37FC-4BA8-8D45-7A8980FCFB33}|Vistas\\Vistas.csproj|C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\vistas\\fromularios\\administrador\\frmverempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E2AC2DEF-37FC-4BA8-8D45-7A8980FCFB33}|Vistas\\Vistas.csproj|solutionrelative:vistas\\fromularios\\administrador\\frmverempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2AC2DEF-37FC-4BA8-8D45-7A8980FCFB33}|Vistas\\Vistas.csproj|C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\vistas\\fromularios\\administrador\\frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E2AC2DEF-37FC-4BA8-8D45-7A8980FCFB33}|Vistas\\Vistas.csproj|solutionrelative:vistas\\fromularios\\administrador\\frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2AC2DEF-37FC-4BA8-8D45-7A8980FCFB33}|Vistas\\Vistas.csproj|C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\vistas\\fromularios\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E2AC2DEF-37FC-4BA8-8D45-7A8980FCFB33}|Vistas\\Vistas.csproj|solutionrelative:vistas\\fromularios\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2AC2DEF-37FC-4BA8-8D45-7A8980FCFB33}|Vistas\\Vistas.csproj|C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\vistas\\fromularios\\empleado\\frmdashboardempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2AC2DEF-37FC-4BA8-8D45-7A8980FCFB33}|Vistas\\Vistas.csproj|solutionrelative:vistas\\fromularios\\empleado\\frmdashboardempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "frmDashboardEmpleado.cs",
+              "DocumentMoniker": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Empleado\\frmDashboardEmpleado.cs",
+              "RelativeDocumentMoniker": "Vistas\\Fromularios\\Empleado\\frmDashboardEmpleado.cs",
+              "ToolTip": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Empleado\\frmDashboardEmpleado.cs",
+              "RelativeToolTip": "Vistas\\Fromularios\\Empleado\\frmDashboardEmpleado.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAnwHUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T04:45:52.185Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmDashboardEmpleado.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Empleado\\frmDashboardEmpleado.cs",
+              "RelativeDocumentMoniker": "Vistas\\Fromularios\\Empleado\\frmDashboardEmpleado.cs",
+              "ToolTip": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50%\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Empleado\\frmDashboardEmpleado.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\PTC DEFINITIVO 50%\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Empleado\\frmDashboardEmpleado.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T00:43:03.014Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmDashboardAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Administrador\\frmDashboardAdmin.cs",
+              "RelativeDocumentMoniker": "Vistas\\Fromularios\\Administrador\\frmDashboardAdmin.cs",
+              "ToolTip": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Administrador\\frmDashboardAdmin.cs",
+              "RelativeToolTip": "Vistas\\Fromularios\\Administrador\\frmDashboardAdmin.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAowFcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T01:38:16.133Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmVerVentas.cs",
+              "DocumentMoniker": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Empleado\\frmVerVentas.cs",
+              "RelativeDocumentMoniker": "Vistas\\Fromularios\\Empleado\\frmVerVentas.cs",
+              "ToolTip": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Empleado\\frmVerVentas.cs",
+              "RelativeToolTip": "Vistas\\Fromularios\\Empleado\\frmVerVentas.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T03:15:21.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmControlFechas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Empleado\\frmControlFechas.cs",
+              "RelativeDocumentMoniker": "Vistas\\Fromularios\\Empleado\\frmControlFechas.cs",
+              "ToolTip": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Empleado\\frmControlFechas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Vistas\\Fromularios\\Empleado\\frmControlFechas.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T04:30:07.371Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmGestionarProductos.cs",
+              "DocumentMoniker": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Empleado\\frmGestionarProductos.cs",
+              "RelativeDocumentMoniker": "Vistas\\Fromularios\\Empleado\\frmGestionarProductos.cs",
+              "ToolTip": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Empleado\\frmGestionarProductos.cs",
+              "RelativeToolTip": "Vistas\\Fromularios\\Empleado\\frmGestionarProductos.cs",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAYwNIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T02:26:43.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmRegistrarEmpleado.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Administrador\\frmRegistrarEmpleado.cs",
+              "RelativeDocumentMoniker": "Vistas\\Fromularios\\Administrador\\frmRegistrarEmpleado.cs",
+              "ToolTip": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50%\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Administrador\\frmRegistrarEmpleado.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\PTC DEFINITIVO 50%\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Administrador\\frmRegistrarEmpleado.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T01:53:41.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmReportes.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Administrador\\frmReportes.cs",
+              "RelativeDocumentMoniker": "Vistas\\Fromularios\\Administrador\\frmReportes.cs",
+              "ToolTip": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50%\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Administrador\\frmReportes.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\PTC DEFINITIVO 50%\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Administrador\\frmReportes.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T04:43:50.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmReportes.cs",
+              "DocumentMoniker": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Administrador\\frmReportes.cs",
+              "RelativeDocumentMoniker": "Vistas\\Fromularios\\Administrador\\frmReportes.cs",
+              "ToolTip": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Administrador\\frmReportes.cs",
+              "RelativeToolTip": "Vistas\\Fromularios\\Administrador\\frmReportes.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwDkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T04:17:39.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmRegistrarVentas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Empleado\\frmRegistrarVentas.cs",
+              "RelativeDocumentMoniker": "Vistas\\Fromularios\\Empleado\\frmRegistrarVentas.cs",
+              "ToolTip": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50%\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Empleado\\frmRegistrarVentas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\PTC DEFINITIVO 50%\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Empleado\\frmRegistrarVentas.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T03:25:00.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmGestionarProductos.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Empleado\\frmGestionarProductos.cs",
+              "RelativeDocumentMoniker": "Vistas\\Fromularios\\Empleado\\frmGestionarProductos.cs",
+              "ToolTip": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Empleado\\frmGestionarProductos.cs [Design]",
+              "RelativeToolTip": "Vistas\\Fromularios\\Empleado\\frmGestionarProductos.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T03:02:09.58Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frmReportesEmpleado.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Empleado\\frmReportesEmpleado.cs",
+              "RelativeDocumentMoniker": "Vistas\\Fromularios\\Empleado\\frmReportesEmpleado.cs",
+              "ToolTip": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50%\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Empleado\\frmReportesEmpleado.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\PTC DEFINITIVO 50%\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Empleado\\frmReportesEmpleado.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T03:57:04.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmVerVentas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Empleado\\frmVerVentas.cs",
+              "RelativeDocumentMoniker": "Vistas\\Fromularios\\Empleado\\frmVerVentas.cs",
+              "ToolTip": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Empleado\\frmVerVentas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Vistas\\Fromularios\\Empleado\\frmVerVentas.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T03:14:20.16Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "frmVerProductos.cs",
+              "DocumentMoniker": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Empleado\\frmVerProductos.cs",
+              "RelativeDocumentMoniker": "Vistas\\Fromularios\\Empleado\\frmVerProductos.cs",
+              "ToolTip": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Empleado\\frmVerProductos.cs",
+              "RelativeToolTip": "Vistas\\Fromularios\\Empleado\\frmVerProductos.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAuwGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T02:41:11.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "frmVerProductos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Empleado\\frmVerProductos.cs",
+              "RelativeDocumentMoniker": "Vistas\\Fromularios\\Empleado\\frmVerProductos.cs",
+              "ToolTip": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50%\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Empleado\\frmVerProductos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\PTC DEFINITIVO 50%\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Empleado\\frmVerProductos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T03:09:04.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TipoProducto.cs",
+              "DocumentMoniker": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Modelos\\Entidades\\TipoProducto.cs",
+              "RelativeDocumentMoniker": "Modelos\\Entidades\\TipoProducto.cs",
+              "ToolTip": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Modelos\\Entidades\\TipoProducto.cs",
+              "RelativeToolTip": "Modelos\\Entidades\\TipoProducto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T04:58:50.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Categorias.cs",
+              "DocumentMoniker": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Modelos\\Entidades\\Categorias.cs",
+              "RelativeDocumentMoniker": "Modelos\\Entidades\\Categorias.cs",
+              "ToolTip": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Modelos\\Entidades\\Categorias.cs",
+              "RelativeToolTip": "Modelos\\Entidades\\Categorias.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T04:59:44.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Proveedores.cs",
+              "DocumentMoniker": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Modelos\\Entidades\\Proveedores.cs",
+              "RelativeDocumentMoniker": "Modelos\\Entidades\\Proveedores.cs",
+              "ToolTip": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Modelos\\Entidades\\Proveedores.cs",
+              "RelativeToolTip": "Modelos\\Entidades\\Proveedores.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwBUAAACaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T05:00:54.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UnidadMedida.cs",
+              "DocumentMoniker": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Modelos\\Entidades\\UnidadMedida.cs",
+              "RelativeDocumentMoniker": "Modelos\\Entidades\\UnidadMedida.cs",
+              "ToolTip": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Modelos\\Entidades\\UnidadMedida.cs",
+              "RelativeToolTip": "Modelos\\Entidades\\UnidadMedida.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T05:02:54.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Compra.cs",
+              "DocumentMoniker": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Modelos\\Entidades\\Compra.cs",
+              "RelativeDocumentMoniker": "Modelos\\Entidades\\Compra.cs",
+              "ToolTip": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Modelos\\Entidades\\Compra.cs",
+              "RelativeToolTip": "Modelos\\Entidades\\Compra.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA8wBsAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T04:38:10.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DetalleVenta.cs",
+              "DocumentMoniker": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Modelos\\Entidades\\DetalleVenta.cs",
+              "RelativeDocumentMoniker": "Modelos\\Entidades\\DetalleVenta.cs",
+              "ToolTip": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Modelos\\Entidades\\DetalleVenta.cs",
+              "RelativeToolTip": "Modelos\\Entidades\\DetalleVenta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T03:22:09.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DetalleCompra.cs",
+              "DocumentMoniker": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Modelos\\Entidades\\DetalleCompra.cs",
+              "RelativeDocumentMoniker": "Modelos\\Entidades\\DetalleCompra.cs",
+              "ToolTip": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Modelos\\Entidades\\DetalleCompra.cs",
+              "RelativeToolTip": "Modelos\\Entidades\\DetalleCompra.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAmwBUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T04:52:47.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Modelos\\Entidades\\Cliente.cs",
+              "RelativeDocumentMoniker": "Modelos\\Entidades\\Cliente.cs",
+              "ToolTip": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Modelos\\Entidades\\Cliente.cs",
+              "RelativeToolTip": "Modelos\\Entidades\\Cliente.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAACkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T04:42:06.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "RolUser.cs",
+              "DocumentMoniker": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Modelos\\Entidades\\RolUser.cs",
+              "RelativeDocumentMoniker": "Modelos\\Entidades\\RolUser.cs",
+              "ToolTip": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Modelos\\Entidades\\RolUser.cs",
+              "RelativeToolTip": "Modelos\\Entidades\\RolUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T04:57:28.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Modelos\\Entidades\\Producto.cs",
+              "RelativeDocumentMoniker": "Modelos\\Entidades\\Producto.cs",
+              "ToolTip": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Modelos\\Entidades\\Producto.cs",
+              "RelativeToolTip": "Modelos\\Entidades\\Producto.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T01:12:19.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Vistas\\Program.cs",
+              "RelativeDocumentMoniker": "Vistas\\Program.cs",
+              "ToolTip": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Vistas\\Program.cs",
+              "RelativeToolTip": "Vistas\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T00:45:11.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Modelos\\Entidades\\Usuario.cs",
+              "RelativeDocumentMoniker": "Modelos\\Entidades\\Usuario.cs",
+              "ToolTip": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Modelos\\Entidades\\Usuario.cs",
+              "RelativeToolTip": "Modelos\\Entidades\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T01:56:51.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ConexionDB.cs",
+              "DocumentMoniker": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Modelos\\Conexion\\ConexionDB.cs",
+              "RelativeDocumentMoniker": "Modelos\\Conexion\\ConexionDB.cs",
+              "ToolTip": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Modelos\\Conexion\\ConexionDB.cs",
+              "RelativeToolTip": "Modelos\\Conexion\\ConexionDB.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwBUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T00:46:03.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "frmGestionarProveedores.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Administrador\\frmGestionarProveedores.cs",
+              "RelativeDocumentMoniker": "Vistas\\Fromularios\\Administrador\\frmGestionarProveedores.cs",
+              "ToolTip": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50%\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Administrador\\frmGestionarProveedores.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\PTC DEFINITIVO 50%\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Administrador\\frmGestionarProveedores.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T04:09:03.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "frmVerProveedores.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Administrador\\frmVerProveedores.cs",
+              "RelativeDocumentMoniker": "Vistas\\Fromularios\\Administrador\\frmVerProveedores.cs",
+              "ToolTip": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50%\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Administrador\\frmVerProveedores.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\PTC DEFINITIVO 50%\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Administrador\\frmVerProveedores.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T04:28:06.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "frmDashboardAdmin.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Administrador\\frmDashboardAdmin.cs",
+              "RelativeDocumentMoniker": "Vistas\\Fromularios\\Administrador\\frmDashboardAdmin.cs",
+              "ToolTip": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Administrador\\frmDashboardAdmin.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Vistas\\Fromularios\\Administrador\\frmDashboardAdmin.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T00:51:46.918Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "frmCategorias.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Administrador\\frmCategorias.cs",
+              "RelativeDocumentMoniker": "Vistas\\Fromularios\\Administrador\\frmCategorias.cs",
+              "ToolTip": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50%\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Administrador\\frmCategorias.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\PTC DEFINITIVO 50%\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Administrador\\frmCategorias.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T03:43:37.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "frmVerEmpleado.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Administrador\\frmVerEmpleado.cs",
+              "RelativeDocumentMoniker": "Vistas\\Fromularios\\Administrador\\frmVerEmpleado.cs",
+              "ToolTip": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50%\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Administrador\\frmVerEmpleado.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\PTC DEFINITIVO 50%\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Administrador\\frmVerEmpleado.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T03:01:47.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "frmProductos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Administrador\\frmProductos.cs",
+              "RelativeDocumentMoniker": "Vistas\\Fromularios\\Administrador\\frmProductos.cs",
+              "ToolTip": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50%\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Administrador\\frmProductos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\PTC DEFINITIVO 50%\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Administrador\\frmProductos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T03:35:16.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Login.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50% - copia\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Login.cs",
+              "RelativeDocumentMoniker": "Vistas\\Fromularios\\Login.cs",
+              "ToolTip": "C:\\Users\\gabym\\OneDrive\\Escritorio\\PTC DEFINITIVO 50%\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Login.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\PTC DEFINITIVO 50%\\Sistema de LacteosV1-PTC\\Vistas\\Fromularios\\Login.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T00:47:22.006Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

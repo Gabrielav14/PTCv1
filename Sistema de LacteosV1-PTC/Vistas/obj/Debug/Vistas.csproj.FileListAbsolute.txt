@@ -1,0 +1,83 @@
+C:\Users\gabym\Escritorio\Sistema de LacteosV1-PTC\Vistas\bin\Debug\Vistas.exe.config
+C:\Users\gabym\Escritorio\Sistema de LacteosV1-PTC\Vistas\bin\Debug\Vistas.exe
+C:\Users\gabym\Escritorio\Sistema de LacteosV1-PTC\Vistas\bin\Debug\Vistas.pdb
+C:\Users\gabym\Escritorio\Sistema de LacteosV1-PTC\Vistas\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\gabym\Escritorio\Sistema de LacteosV1-PTC\Vistas\bin\Debug\Modelos.dll
+C:\Users\gabym\Escritorio\Sistema de LacteosV1-PTC\Vistas\bin\Debug\Modelos.pdb
+C:\Users\gabym\Escritorio\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.csproj.AssemblyReference.cache
+C:\Users\gabym\Escritorio\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.Fromularios.Administrador.frmDashboardAdmin.resources
+C:\Users\gabym\Escritorio\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.Fromularios.Login.resources
+C:\Users\gabym\Escritorio\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.Properties.Resources.resources
+C:\Users\gabym\Escritorio\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.csproj.GenerateResource.cache
+C:\Users\gabym\Escritorio\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.csproj.CoreCompileInputs.cache
+C:\Users\gabym\Escritorio\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.csproj.Up2Date
+C:\Users\gabym\Escritorio\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.exe
+C:\Users\gabym\Escritorio\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.pdb
+C:\Users\gabym\Escritorio\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.exe.config
+C:\Users\gabym\Escritorio\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.Fromularios.Administrador.frmRegistrarEmpleado.resources
+C:\Users\gabym\Escritorio\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.Fromularios.Administrador.frmVerEmpleado.resources
+C:\Users\gabym\Escritorio\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.Fromularios.Administrador.frmProductos.resources
+C:\Users\gabym\Escritorio\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.Fromularios.Administrador.frmCategorias.resources
+C:\Users\gabym\Escritorio\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.Fromularios.Administrador.frmGestionarProveedores.resources
+C:\Users\gabym\Escritorio\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.Fromularios.Administrador.frmVerProveedores.resources
+C:\Users\gabym\Escritorio\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.Fromularios.Administrador.frmReportes.resources
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50%\Sistema de LacteosV1-PTC\Vistas\bin\Debug\Vistas.exe.config
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50%\Sistema de LacteosV1-PTC\Vistas\bin\Debug\Vistas.exe
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50%\Sistema de LacteosV1-PTC\Vistas\bin\Debug\Vistas.pdb
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50%\Sistema de LacteosV1-PTC\Vistas\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50%\Sistema de LacteosV1-PTC\Vistas\bin\Debug\Modelos.dll
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50%\Sistema de LacteosV1-PTC\Vistas\bin\Debug\Modelos.pdb
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50%\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.csproj.AssemblyReference.cache
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50%\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.exe.config
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50%\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.Fromularios.Administrador.frmCategorias.resources
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50%\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.Fromularios.Administrador.frmDashboardAdmin.resources
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50%\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.Fromularios.Administrador.frmGestionarProveedores.resources
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50%\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.Fromularios.Administrador.frmProductos.resources
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50%\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.Fromularios.Administrador.frmRegistrarEmpleado.resources
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50%\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.Fromularios.Administrador.frmReportes.resources
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50%\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.Fromularios.Administrador.frmVerEmpleado.resources
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50%\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.Fromularios.Administrador.frmVerProveedores.resources
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50%\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.Fromularios.Login.resources
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50%\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.Properties.Resources.resources
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50%\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.csproj.GenerateResource.cache
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50%\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.csproj.CoreCompileInputs.cache
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50%\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.csproj.Up2Date
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50%\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.exe
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50%\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.pdb
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50%\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.Fromularios.Empleado.frmControlFechas.resources
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50%\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.Fromularios.Empleado.frmDashboardEmpleado.resources
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50%\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.Fromularios.Empleado.frmGestionarProductos.resources
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50%\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.Fromularios.Empleado.frmRegistrarVentas.resources
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50%\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.Fromularios.Empleado.frmReportesEmpleado.resources
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50%\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.Fromularios.Empleado.frmVerProductos.resources
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50%\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.Fromularios.Empleado.frmVerVentas.resources
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50% - copia\Sistema de LacteosV1-PTC\Vistas\bin\Debug\Vistas.exe.config
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50% - copia\Sistema de LacteosV1-PTC\Vistas\bin\Debug\Vistas.exe
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50% - copia\Sistema de LacteosV1-PTC\Vistas\bin\Debug\Vistas.pdb
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50% - copia\Sistema de LacteosV1-PTC\Vistas\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50% - copia\Sistema de LacteosV1-PTC\Vistas\bin\Debug\Modelos.dll
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50% - copia\Sistema de LacteosV1-PTC\Vistas\bin\Debug\Modelos.pdb
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50% - copia\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.csproj.AssemblyReference.cache
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50% - copia\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.exe.config
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50% - copia\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.Fromularios.Administrador.frmCategorias.resources
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50% - copia\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.Fromularios.Administrador.frmDashboardAdmin.resources
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50% - copia\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.Fromularios.Administrador.frmGestionarProveedores.resources
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50% - copia\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.Fromularios.Administrador.frmProductos.resources
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50% - copia\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.Fromularios.Administrador.frmRegistrarEmpleado.resources
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50% - copia\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.Fromularios.Administrador.frmReportes.resources
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50% - copia\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.Fromularios.Administrador.frmVerEmpleado.resources
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50% - copia\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.Fromularios.Administrador.frmVerProveedores.resources
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50% - copia\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.Fromularios.Empleado.frmControlFechas.resources
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50% - copia\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.Fromularios.Empleado.frmDashboardEmpleado.resources
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50% - copia\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.Fromularios.Empleado.frmGestionarProductos.resources
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50% - copia\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.Fromularios.Empleado.frmRegistrarVentas.resources
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50% - copia\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.Fromularios.Empleado.frmReportesEmpleado.resources
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50% - copia\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.Fromularios.Empleado.frmVerProductos.resources
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50% - copia\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.Fromularios.Empleado.frmVerVentas.resources
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50% - copia\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.Fromularios.Login.resources
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50% - copia\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.Properties.Resources.resources
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50% - copia\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.csproj.GenerateResource.cache
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50% - copia\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.csproj.CoreCompileInputs.cache
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50% - copia\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.csproj.Up2Date
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50% - copia\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.exe
+C:\Users\gabym\OneDrive\Escritorio\PTC DEFINITIVO 50% - copia\Sistema de LacteosV1-PTC\Vistas\obj\Debug\Vistas.pdb
