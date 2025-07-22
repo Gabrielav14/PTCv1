@@ -59,10 +59,9 @@
             this.pnlBarraTitulo.Controls.Add(this.lblEmpleado);
             this.pnlBarraTitulo.Controls.Add(this.pictureBox2);
             this.pnlBarraTitulo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlBarraTitulo.Location = new System.Drawing.Point(269, 0);
-            this.pnlBarraTitulo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnlBarraTitulo.Location = new System.Drawing.Point(202, 0);
             this.pnlBarraTitulo.Name = "pnlBarraTitulo";
-            this.pnlBarraTitulo.Size = new System.Drawing.Size(1094, 123);
+            this.pnlBarraTitulo.Size = new System.Drawing.Size(820, 100);
             this.pnlBarraTitulo.TabIndex = 2;
             // 
             // lblEmpleado
@@ -70,20 +69,18 @@
             this.lblEmpleado.AutoSize = true;
             this.lblEmpleado.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEmpleado.ForeColor = System.Drawing.Color.White;
-            this.lblEmpleado.Location = new System.Drawing.Point(969, 85);
-            this.lblEmpleado.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblEmpleado.Location = new System.Drawing.Point(727, 69);
             this.lblEmpleado.Name = "lblEmpleado";
-            this.lblEmpleado.Size = new System.Drawing.Size(100, 25);
+            this.lblEmpleado.Size = new System.Drawing.Size(81, 20);
             this.lblEmpleado.TabIndex = 0;
             this.lblEmpleado.Text = "Empleado";
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Vistas.Properties.Resources.logo;
-            this.pictureBox2.Location = new System.Drawing.Point(975, 18);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Location = new System.Drawing.Point(731, 15);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(88, 63);
+            this.pictureBox2.Size = new System.Drawing.Size(66, 51);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 4;
             this.pictureBox2.TabStop = false;
@@ -103,9 +100,8 @@
             this.pnlMenuPrincipal.Controls.Add(this.pictureBox1);
             this.pnlMenuPrincipal.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlMenuPrincipal.Location = new System.Drawing.Point(0, 0);
-            this.pnlMenuPrincipal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pnlMenuPrincipal.Name = "pnlMenuPrincipal";
-            this.pnlMenuPrincipal.Size = new System.Drawing.Size(269, 752);
+            this.pnlMenuPrincipal.Size = new System.Drawing.Size(202, 611);
             this.pnlMenuPrincipal.TabIndex = 3;
             // 
             // btnControlarFechas
@@ -118,12 +114,11 @@
             this.btnControlarFechas.IconChar = FontAwesome.Sharp.IconChar.None;
             this.btnControlarFechas.IconColor = System.Drawing.Color.Black;
             this.btnControlarFechas.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnControlarFechas.Location = new System.Drawing.Point(0, 621);
-            this.btnControlarFechas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnControlarFechas.Location = new System.Drawing.Point(0, 504);
             this.btnControlarFechas.Name = "btnControlarFechas";
-            this.btnControlarFechas.Size = new System.Drawing.Size(248, 63);
+            this.btnControlarFechas.Size = new System.Drawing.Size(205, 51);
             this.btnControlarFechas.TabIndex = 10;
-            this.btnControlarFechas.Text = "Control de Fechas";
+            this.btnControlarFechas.Text = "Control de Ventas";
             this.btnControlarFechas.UseVisualStyleBackColor = false;
             this.btnControlarFechas.Click += new System.EventHandler(this.btnControlarFechas_Click);
             // 
@@ -137,10 +132,9 @@
             this.btnReportes.IconChar = FontAwesome.Sharp.IconChar.None;
             this.btnReportes.IconColor = System.Drawing.Color.Black;
             this.btnReportes.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnReportes.Location = new System.Drawing.Point(0, 558);
-            this.btnReportes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnReportes.Location = new System.Drawing.Point(0, 453);
             this.btnReportes.Name = "btnReportes";
-            this.btnReportes.Size = new System.Drawing.Size(248, 63);
+            this.btnReportes.Size = new System.Drawing.Size(205, 51);
             this.btnReportes.TabIndex = 7;
             this.btnReportes.Text = "Reportes";
             this.btnReportes.UseVisualStyleBackColor = false;
@@ -151,10 +145,9 @@
             this.pnlMantenimientoVentas.Controls.Add(this.btnRegistrarVentas);
             this.pnlMantenimientoVentas.Controls.Add(this.btnVerVentas);
             this.pnlMantenimientoVentas.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlMantenimientoVentas.Location = new System.Drawing.Point(0, 435);
-            this.pnlMantenimientoVentas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnlMantenimientoVentas.Location = new System.Drawing.Point(0, 353);
             this.pnlMantenimientoVentas.Name = "pnlMantenimientoVentas";
-            this.pnlMantenimientoVentas.Size = new System.Drawing.Size(248, 123);
+            this.pnlMantenimientoVentas.Size = new System.Drawing.Size(205, 100);
             this.pnlMantenimientoVentas.TabIndex = 11;
             // 
             // btnRegistrarVentas
@@ -167,10 +160,9 @@
             this.btnRegistrarVentas.IconChar = FontAwesome.Sharp.IconChar.None;
             this.btnRegistrarVentas.IconColor = System.Drawing.Color.Black;
             this.btnRegistrarVentas.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnRegistrarVentas.Location = new System.Drawing.Point(0, 62);
-            this.btnRegistrarVentas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnRegistrarVentas.Location = new System.Drawing.Point(0, 50);
             this.btnRegistrarVentas.Name = "btnRegistrarVentas";
-            this.btnRegistrarVentas.Size = new System.Drawing.Size(248, 62);
+            this.btnRegistrarVentas.Size = new System.Drawing.Size(205, 50);
             this.btnRegistrarVentas.TabIndex = 8;
             this.btnRegistrarVentas.Text = "Registrar Ventas";
             this.btnRegistrarVentas.UseVisualStyleBackColor = false;
@@ -187,9 +179,8 @@
             this.btnVerVentas.IconColor = System.Drawing.Color.Black;
             this.btnVerVentas.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnVerVentas.Location = new System.Drawing.Point(0, 0);
-            this.btnVerVentas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnVerVentas.Name = "btnVerVentas";
-            this.btnVerVentas.Size = new System.Drawing.Size(248, 62);
+            this.btnVerVentas.Size = new System.Drawing.Size(205, 50);
             this.btnVerVentas.TabIndex = 10;
             this.btnVerVentas.Text = "Ver Ventas";
             this.btnVerVentas.UseVisualStyleBackColor = false;
@@ -205,10 +196,9 @@
             this.iconButton2.IconChar = FontAwesome.Sharp.IconChar.None;
             this.iconButton2.IconColor = System.Drawing.Color.Black;
             this.iconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton2.Location = new System.Drawing.Point(0, 372);
-            this.iconButton2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.iconButton2.Location = new System.Drawing.Point(0, 302);
             this.iconButton2.Name = "iconButton2";
-            this.iconButton2.Size = new System.Drawing.Size(248, 63);
+            this.iconButton2.Size = new System.Drawing.Size(205, 51);
             this.iconButton2.TabIndex = 9;
             this.iconButton2.Text = "Ventas:";
             this.iconButton2.UseVisualStyleBackColor = false;
@@ -219,10 +209,9 @@
             this.pnlMantenimientoInventario.Controls.Add(this.btnVerProductos);
             this.pnlMantenimientoInventario.Controls.Add(this.iconButton3);
             this.pnlMantenimientoInventario.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlMantenimientoInventario.Location = new System.Drawing.Point(0, 249);
-            this.pnlMantenimientoInventario.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnlMantenimientoInventario.Location = new System.Drawing.Point(0, 202);
             this.pnlMantenimientoInventario.Name = "pnlMantenimientoInventario";
-            this.pnlMantenimientoInventario.Size = new System.Drawing.Size(248, 123);
+            this.pnlMantenimientoInventario.Size = new System.Drawing.Size(205, 100);
             this.pnlMantenimientoInventario.TabIndex = 9;
             // 
             // btnVerProductos
@@ -235,10 +224,9 @@
             this.btnVerProductos.IconChar = FontAwesome.Sharp.IconChar.None;
             this.btnVerProductos.IconColor = System.Drawing.Color.Black;
             this.btnVerProductos.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnVerProductos.Location = new System.Drawing.Point(0, 64);
-            this.btnVerProductos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnVerProductos.Location = new System.Drawing.Point(0, 52);
             this.btnVerProductos.Name = "btnVerProductos";
-            this.btnVerProductos.Size = new System.Drawing.Size(248, 60);
+            this.btnVerProductos.Size = new System.Drawing.Size(205, 49);
             this.btnVerProductos.TabIndex = 9;
             this.btnVerProductos.Text = "Ver Productos";
             this.btnVerProductos.UseVisualStyleBackColor = false;
@@ -255,9 +243,8 @@
             this.iconButton3.IconColor = System.Drawing.Color.Black;
             this.iconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton3.Location = new System.Drawing.Point(0, 0);
-            this.iconButton3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.iconButton3.Name = "iconButton3";
-            this.iconButton3.Size = new System.Drawing.Size(248, 64);
+            this.iconButton3.Size = new System.Drawing.Size(205, 52);
             this.iconButton3.TabIndex = 8;
             this.iconButton3.Text = "Gestionar Productos";
             this.iconButton3.UseVisualStyleBackColor = false;
@@ -273,10 +260,9 @@
             this.btnInventario.IconChar = FontAwesome.Sharp.IconChar.None;
             this.btnInventario.IconColor = System.Drawing.Color.Black;
             this.btnInventario.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnInventario.Location = new System.Drawing.Point(0, 186);
-            this.btnInventario.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnInventario.Location = new System.Drawing.Point(0, 151);
             this.btnInventario.Name = "btnInventario";
-            this.btnInventario.Size = new System.Drawing.Size(248, 63);
+            this.btnInventario.Size = new System.Drawing.Size(205, 51);
             this.btnInventario.TabIndex = 6;
             this.btnInventario.Text = "Inventario:";
             this.btnInventario.UseVisualStyleBackColor = false;
@@ -288,9 +274,8 @@
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.pictureBox1.Image = global::Vistas.Properties.Resources.logonegro_removebg_preview;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(248, 186);
+            this.pictureBox1.Size = new System.Drawing.Size(205, 151);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
@@ -299,33 +284,30 @@
             // 
             this.pnlBarraAbajo.BackColor = System.Drawing.Color.LightBlue;
             this.pnlBarraAbajo.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlBarraAbajo.Location = new System.Drawing.Point(269, 629);
-            this.pnlBarraAbajo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnlBarraAbajo.Location = new System.Drawing.Point(202, 511);
             this.pnlBarraAbajo.Name = "pnlBarraAbajo";
-            this.pnlBarraAbajo.Size = new System.Drawing.Size(1094, 123);
+            this.pnlBarraAbajo.Size = new System.Drawing.Size(820, 100);
             this.pnlBarraAbajo.TabIndex = 4;
             // 
             // pnlContenedor
             // 
             this.pnlContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlContenedor.Location = new System.Drawing.Point(269, 123);
-            this.pnlContenedor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnlContenedor.Location = new System.Drawing.Point(202, 100);
             this.pnlContenedor.Name = "pnlContenedor";
-            this.pnlContenedor.Size = new System.Drawing.Size(1094, 506);
+            this.pnlContenedor.Size = new System.Drawing.Size(820, 411);
             this.pnlContenedor.TabIndex = 5;
             this.pnlContenedor.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlContenedor_Paint);
             // 
             // frmDashboardEmpleado
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1363, 752);
+            this.ClientSize = new System.Drawing.Size(1022, 611);
             this.Controls.Add(this.pnlContenedor);
             this.Controls.Add(this.pnlBarraAbajo);
             this.Controls.Add(this.pnlBarraTitulo);
             this.Controls.Add(this.pnlMenuPrincipal);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmDashboardEmpleado";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmDashboardEmpleado";

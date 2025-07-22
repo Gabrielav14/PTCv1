@@ -44,6 +44,7 @@ namespace Vistas.Fromularios.Administrador
             adaptador.Fill(tablaVentas);
 
             dgvReportesEmpleados.DataSource = tablaVentas;
+            dgvReportesEmpleados.AutoGenerateColumns = true;
 
             
             dgvReportesEmpleados.Columns["idDetalleVenta"].HeaderText = "ID Venta";

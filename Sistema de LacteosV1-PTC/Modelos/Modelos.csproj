@@ -53,6 +53,7 @@
     <Compile Include="Entidades\TipoProducto.cs" />
     <Compile Include="Entidades\UnidadMedida.cs" />
     <Compile Include="Entidades\Usuario.cs" />
+    <Compile Include="Entidades\Veta.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

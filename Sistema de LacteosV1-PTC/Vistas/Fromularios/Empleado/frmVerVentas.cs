@@ -1,4 +1,5 @@
 ﻿using Modelos.Conexion;
+using Modelos.Entidades;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -14,42 +15,40 @@ namespace Vistas.Fromularios.Empleado
 {
     public partial class frmVerVentas : Form
     {
+        ConexionDB conexionDB = new ConexionDB();
+        
         public frmVerVentas()
         {
             InitializeComponent();
             CargarDetalleVentas();
 
         }
-        private void CargarDetalleVentas()
+        public void CargarDetalleVentas()
         {
-            ConexionDB conexionDB = new ConexionDB();
+            
             conexionDB.conexion.Open();
-           
 
-            string consulta = "SELECT DetalleVentas.idDetalleVenta, Productos.nombreProducto, DetalleCompras.cantidad, " +
-                              "Productos.precioUnitario, Compras.totalPago, " +
-                              "Clientes.nombreCliente, Usuarios.nombreUsuario " +
-                              "FROM DetalleVentas " +
-                              "JOIN Productos ON DetalleCompras.id_Producto = Productos.idProducto " +
-                              "JOIN Clientes ON Compras.id_Cliente = Clientes.idCliente " +
-                              "JOIN Compras ON DetalleCompras.id_Compra= Compras.idCompras"+
-                              "JOIN Usuarios ON DetalleVentas.id_Usuario = Usuarios.idUsuario";
 
-            SqlCommand comando = new SqlCommand(consulta, conexionDB.conexion);
-            SqlDataAdapter adaptador = new SqlDataAdapter(comando);
-            DataTable tablaDetalle = new DataTable();
-            adaptador.Fill(tablaDetalle);
+            string consulta = "select idCompra, nombreCliente as Cliente, apellido as Apellido, fecha as Fecha, tipoPago, totalPago from DetalleVentas " +
+                             "inner join Compras on DetalleVentas.id_Compra = Compras.idCompra " +
+                             "inner join Clientes on Compras.id_Cliente = Clientes.idCliente";
 
-            dgvVerVentas.DataSource = tablaDetalle;
+            SqlCommand comandoSQL = new SqlCommand(consulta, conexionDB.conexion);
+            SqlDataAdapter adaptador = new SqlDataAdapter(comandoSQL);
+            DataTable tabla = new DataTable();
+            adaptador.Fill(tabla);
+            dgvVerVentas.DataSource = tabla;
 
             conexionDB.cerrar();
         }
 
+        
+
 
         private void btnActualizar_Click(object sender, EventArgs e)
         {
-            CargarDetalleVentas();
 
+            CargarDetalleVentas();
 
         }
     }

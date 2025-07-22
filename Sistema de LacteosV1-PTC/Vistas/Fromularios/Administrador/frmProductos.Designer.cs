@@ -28,29 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.cbCantidad = new System.Windows.Forms.ComboBox();
+            this.cmbUnidadMedida = new System.Windows.Forms.ComboBox();
             this.dtpFechaEntrada = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dtpFechaFin = new System.Windows.Forms.DateTimePicker();
             this.lblPrecioUnitario = new System.Windows.Forms.Label();
             this.txtPrecio = new System.Windows.Forms.TextBox();
             this.lblVencimiento = new System.Windows.Forms.Label();
-            this.lblCantidad = new System.Windows.Forms.Label();
+            this.lblUnidadMedida = new System.Windows.Forms.Label();
             this.lblProductos = new System.Windows.Forms.Label();
-            this.dgvEmpleados = new System.Windows.Forms.DataGridView();
+            this.dgvProductos = new System.Windows.Forms.DataGridView();
             this.btnLimpiar = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
             this.btnActualizar = new System.Windows.Forms.Button();
-            this.btnAgregar = new System.Windows.Forms.Button();
             this.lblFechaEntrada = new System.Windows.Forms.Label();
             this.lblNombre = new System.Windows.Forms.Label();
             this.txtNombreProducto = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvEmpleados)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvProductos)).BeginInit();
             this.SuspendLayout();
             // 
-            // cbCantidad
+            // cmbUnidadMedida
             // 
-            this.cbCantidad.FormattingEnabled = true;
-            this.cbCantidad.Items.AddRange(new object[] {
+            this.cmbUnidadMedida.FormattingEnabled = true;
+            this.cmbUnidadMedida.Items.AddRange(new object[] {
             "1",
             "2",
             "3",
@@ -61,10 +60,10 @@
             "8",
             "9",
             "10"});
-            this.cbCantidad.Location = new System.Drawing.Point(359, 97);
-            this.cbCantidad.Name = "cbCantidad";
-            this.cbCantidad.Size = new System.Drawing.Size(92, 21);
-            this.cbCantidad.TabIndex = 78;
+            this.cmbUnidadMedida.Location = new System.Drawing.Point(359, 97);
+            this.cmbUnidadMedida.Name = "cmbUnidadMedida";
+            this.cmbUnidadMedida.Size = new System.Drawing.Size(92, 21);
+            this.cmbUnidadMedida.TabIndex = 78;
             // 
             // dtpFechaEntrada
             // 
@@ -75,12 +74,12 @@
             this.dtpFechaEntrada.Size = new System.Drawing.Size(178, 20);
             this.dtpFechaEntrada.TabIndex = 77;
             // 
-            // dateTimePicker1
+            // dtpFechaFin
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(415, 171);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(176, 20);
-            this.dateTimePicker1.TabIndex = 76;
+            this.dtpFechaFin.Location = new System.Drawing.Point(415, 171);
+            this.dtpFechaFin.Name = "dtpFechaFin";
+            this.dtpFechaFin.Size = new System.Drawing.Size(176, 20);
+            this.dtpFechaFin.TabIndex = 76;
             // 
             // lblPrecioUnitario
             // 
@@ -109,15 +108,15 @@
             this.lblVencimiento.TabIndex = 73;
             this.lblVencimiento.Text = "Fecha de Vencimiento:";
             // 
-            // lblCantidad
+            // lblUnidadMedida
             // 
-            this.lblCantidad.AutoSize = true;
-            this.lblCantidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCantidad.Location = new System.Drawing.Point(355, 74);
-            this.lblCantidad.Name = "lblCantidad";
-            this.lblCantidad.Size = new System.Drawing.Size(77, 20);
-            this.lblCantidad.TabIndex = 72;
-            this.lblCantidad.Text = "Cantidad:";
+            this.lblUnidadMedida.AutoSize = true;
+            this.lblUnidadMedida.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUnidadMedida.Location = new System.Drawing.Point(309, 74);
+            this.lblUnidadMedida.Name = "lblUnidadMedida";
+            this.lblUnidadMedida.Size = new System.Drawing.Size(142, 20);
+            this.lblUnidadMedida.TabIndex = 72;
+            this.lblUnidadMedida.Text = "Unidad de Medida:";
             // 
             // lblProductos
             // 
@@ -129,13 +128,13 @@
             this.lblProductos.TabIndex = 71;
             this.lblProductos.Text = "Administrar Productos";
             // 
-            // dgvEmpleados
+            // dgvProductos
             // 
-            this.dgvEmpleados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvEmpleados.Location = new System.Drawing.Point(41, 217);
-            this.dgvEmpleados.Name = "dgvEmpleados";
-            this.dgvEmpleados.Size = new System.Drawing.Size(581, 186);
-            this.dgvEmpleados.TabIndex = 70;
+            this.dgvProductos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvProductos.Location = new System.Drawing.Point(41, 217);
+            this.dgvProductos.Name = "dgvProductos";
+            this.dgvProductos.Size = new System.Drawing.Size(581, 186);
+            this.dgvProductos.TabIndex = 70;
             // 
             // btnLimpiar
             // 
@@ -146,6 +145,7 @@
             this.btnLimpiar.TabIndex = 69;
             this.btnLimpiar.Text = "Limpiar";
             this.btnLimpiar.UseVisualStyleBackColor = false;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
             // 
             // btnEliminar
             // 
@@ -166,16 +166,6 @@
             this.btnActualizar.TabIndex = 67;
             this.btnActualizar.Text = "Actualizar";
             this.btnActualizar.UseVisualStyleBackColor = false;
-            // 
-            // btnAgregar
-            // 
-            this.btnAgregar.BackColor = System.Drawing.Color.Gold;
-            this.btnAgregar.Location = new System.Drawing.Point(651, 182);
-            this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(108, 58);
-            this.btnAgregar.TabIndex = 66;
-            this.btnAgregar.Text = "Agregar";
-            this.btnAgregar.UseVisualStyleBackColor = false;
             // 
             // lblFechaEntrada
             // 
@@ -210,25 +200,25 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(798, 438);
-            this.Controls.Add(this.cbCantidad);
+            this.Controls.Add(this.cmbUnidadMedida);
             this.Controls.Add(this.dtpFechaEntrada);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.dtpFechaFin);
             this.Controls.Add(this.lblPrecioUnitario);
             this.Controls.Add(this.txtPrecio);
             this.Controls.Add(this.lblVencimiento);
-            this.Controls.Add(this.lblCantidad);
+            this.Controls.Add(this.lblUnidadMedida);
             this.Controls.Add(this.lblProductos);
-            this.Controls.Add(this.dgvEmpleados);
+            this.Controls.Add(this.dgvProductos);
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnActualizar);
-            this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.lblFechaEntrada);
             this.Controls.Add(this.lblNombre);
             this.Controls.Add(this.txtNombreProducto);
             this.Name = "frmProductos";
             this.Text = "frmProductos";
-            ((System.ComponentModel.ISupportInitialize)(this.dgvEmpleados)).EndInit();
+            this.Load += new System.EventHandler(this.frmProductos_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvProductos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -236,19 +226,18 @@
 
         #endregion
 
-        private System.Windows.Forms.ComboBox cbCantidad;
+        private System.Windows.Forms.ComboBox cmbUnidadMedida;
         private System.Windows.Forms.DateTimePicker dtpFechaEntrada;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dtpFechaFin;
         private System.Windows.Forms.Label lblPrecioUnitario;
         private System.Windows.Forms.TextBox txtPrecio;
         private System.Windows.Forms.Label lblVencimiento;
-        private System.Windows.Forms.Label lblCantidad;
+        private System.Windows.Forms.Label lblUnidadMedida;
         private System.Windows.Forms.Label lblProductos;
-        private System.Windows.Forms.DataGridView dgvEmpleados;
+        private System.Windows.Forms.DataGridView dgvProductos;
         private System.Windows.Forms.Button btnLimpiar;
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Button btnActualizar;
-        private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.Label lblFechaEntrada;
         private System.Windows.Forms.Label lblNombre;
         private System.Windows.Forms.TextBox txtNombreProducto;

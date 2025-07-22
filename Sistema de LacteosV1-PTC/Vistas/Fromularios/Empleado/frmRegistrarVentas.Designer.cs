@@ -30,18 +30,18 @@
         {
             this.lblVentas = new System.Windows.Forms.Label();
             this.gbDatosCliente = new System.Windows.Forms.GroupBox();
+            this.txtCorreo = new System.Windows.Forms.TextBox();
             this.lblDireccion = new System.Windows.Forms.Label();
             this.lblCorreo = new System.Windows.Forms.Label();
             this.lblDui = new System.Windows.Forms.Label();
             this.lblTelefono = new System.Windows.Forms.Label();
             this.lblApellido = new System.Windows.Forms.Label();
             this.lblNombre = new System.Windows.Forms.Label();
-            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox3 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.mtbTelefono = new System.Windows.Forms.MaskedTextBox();
+            this.mtbDui = new System.Windows.Forms.MaskedTextBox();
+            this.txtDireccion = new System.Windows.Forms.TextBox();
+            this.txtNombreCliente = new System.Windows.Forms.TextBox();
+            this.txtApellido = new System.Windows.Forms.TextBox();
             this.gbProducto = new System.Windows.Forms.GroupBox();
             this.btnQuitar = new FontAwesome.Sharp.IconButton();
             this.btnAgergar = new FontAwesome.Sharp.IconButton();
@@ -53,6 +53,7 @@
             this.lblTotal = new System.Windows.Forms.Label();
             this.cmbTipoPago = new System.Windows.Forms.ComboBox();
             this.btnRegistrarVenta = new FontAwesome.Sharp.IconButton();
+            this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.gbDatosCliente.SuspendLayout();
             this.gbProducto.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudCantidad)).BeginInit();
@@ -75,18 +76,18 @@
             // gbDatosCliente
             // 
             this.gbDatosCliente.BackColor = System.Drawing.Color.LightSlateGray;
+            this.gbDatosCliente.Controls.Add(this.txtCorreo);
             this.gbDatosCliente.Controls.Add(this.lblDireccion);
             this.gbDatosCliente.Controls.Add(this.lblCorreo);
             this.gbDatosCliente.Controls.Add(this.lblDui);
             this.gbDatosCliente.Controls.Add(this.lblTelefono);
             this.gbDatosCliente.Controls.Add(this.lblApellido);
             this.gbDatosCliente.Controls.Add(this.lblNombre);
-            this.gbDatosCliente.Controls.Add(this.maskedTextBox2);
-            this.gbDatosCliente.Controls.Add(this.maskedTextBox3);
-            this.gbDatosCliente.Controls.Add(this.maskedTextBox1);
-            this.gbDatosCliente.Controls.Add(this.textBox4);
-            this.gbDatosCliente.Controls.Add(this.textBox3);
-            this.gbDatosCliente.Controls.Add(this.textBox1);
+            this.gbDatosCliente.Controls.Add(this.mtbTelefono);
+            this.gbDatosCliente.Controls.Add(this.mtbDui);
+            this.gbDatosCliente.Controls.Add(this.txtDireccion);
+            this.gbDatosCliente.Controls.Add(this.txtNombreCliente);
+            this.gbDatosCliente.Controls.Add(this.txtApellido);
             this.gbDatosCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbDatosCliente.Location = new System.Drawing.Point(12, 37);
             this.gbDatosCliente.Name = "gbDatosCliente";
@@ -94,6 +95,14 @@
             this.gbDatosCliente.TabIndex = 1;
             this.gbDatosCliente.TabStop = false;
             this.gbDatosCliente.Text = "Datos del Cliente:";
+            // 
+            // txtCorreo
+            // 
+            this.txtCorreo.ForeColor = System.Drawing.Color.Black;
+            this.txtCorreo.Location = new System.Drawing.Point(270, 48);
+            this.txtCorreo.Name = "txtCorreo";
+            this.txtCorreo.Size = new System.Drawing.Size(177, 24);
+            this.txtCorreo.TabIndex = 12;
             // 
             // lblDireccion
             // 
@@ -161,54 +170,45 @@
             this.lblNombre.TabIndex = 6;
             this.lblNombre.Text = "Nombre del Cliente:";
             // 
-            // maskedTextBox2
+            // mtbTelefono
             // 
-            this.maskedTextBox2.Location = new System.Drawing.Point(270, 164);
-            this.maskedTextBox2.Mask = "0000-0000";
-            this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(177, 24);
-            this.maskedTextBox2.TabIndex = 4;
+            this.mtbTelefono.Location = new System.Drawing.Point(270, 164);
+            this.mtbTelefono.Mask = "0000-0000";
+            this.mtbTelefono.Name = "mtbTelefono";
+            this.mtbTelefono.Size = new System.Drawing.Size(177, 24);
+            this.mtbTelefono.TabIndex = 4;
             // 
-            // maskedTextBox3
+            // mtbDui
             // 
-            this.maskedTextBox3.ForeColor = System.Drawing.Color.Black;
-            this.maskedTextBox3.Location = new System.Drawing.Point(270, 48);
-            this.maskedTextBox3.Mask = "aaaa@aaaa.aa";
-            this.maskedTextBox3.Name = "maskedTextBox3";
-            this.maskedTextBox3.Size = new System.Drawing.Size(177, 24);
-            this.maskedTextBox3.TabIndex = 5;
+            this.mtbDui.ForeColor = System.Drawing.Color.Black;
+            this.mtbDui.Location = new System.Drawing.Point(270, 105);
+            this.mtbDui.Mask = "00000000-0";
+            this.mtbDui.Name = "mtbDui";
+            this.mtbDui.Size = new System.Drawing.Size(177, 24);
+            this.mtbDui.TabIndex = 3;
             // 
-            // maskedTextBox1
+            // txtDireccion
             // 
-            this.maskedTextBox1.ForeColor = System.Drawing.Color.Black;
-            this.maskedTextBox1.Location = new System.Drawing.Point(270, 105);
-            this.maskedTextBox1.Mask = "00000000-0";
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(177, 24);
-            this.maskedTextBox1.TabIndex = 3;
+            this.txtDireccion.Location = new System.Drawing.Point(30, 164);
+            this.txtDireccion.Name = "txtDireccion";
+            this.txtDireccion.Size = new System.Drawing.Size(147, 24);
+            this.txtDireccion.TabIndex = 3;
             // 
-            // textBox4
+            // txtNombreCliente
             // 
-            this.textBox4.Location = new System.Drawing.Point(30, 164);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(147, 24);
-            this.textBox4.TabIndex = 3;
+            this.txtNombreCliente.ForeColor = System.Drawing.Color.Black;
+            this.txtNombreCliente.Location = new System.Drawing.Point(44, 48);
+            this.txtNombreCliente.Name = "txtNombreCliente";
+            this.txtNombreCliente.Size = new System.Drawing.Size(133, 24);
+            this.txtNombreCliente.TabIndex = 2;
             // 
-            // textBox3
+            // txtApellido
             // 
-            this.textBox3.ForeColor = System.Drawing.Color.Black;
-            this.textBox3.Location = new System.Drawing.Point(44, 48);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(133, 24);
-            this.textBox3.TabIndex = 2;
-            // 
-            // textBox1
-            // 
-            this.textBox1.ForeColor = System.Drawing.Color.Black;
-            this.textBox1.Location = new System.Drawing.Point(30, 105);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(147, 24);
-            this.textBox1.TabIndex = 0;
+            this.txtApellido.ForeColor = System.Drawing.Color.Black;
+            this.txtApellido.Location = new System.Drawing.Point(30, 105);
+            this.txtApellido.Name = "txtApellido";
+            this.txtApellido.Size = new System.Drawing.Size(147, 24);
+            this.txtApellido.TabIndex = 0;
             // 
             // gbProducto
             // 
@@ -238,6 +238,7 @@
             this.btnQuitar.TabIndex = 3;
             this.btnQuitar.Text = "Quitar";
             this.btnQuitar.UseVisualStyleBackColor = false;
+            this.btnQuitar.Click += new System.EventHandler(this.btnQuitar_Click);
             // 
             // btnAgergar
             // 
@@ -252,6 +253,7 @@
             this.btnAgergar.TabIndex = 2;
             this.btnAgergar.Text = "Agregar";
             this.btnAgergar.UseVisualStyleBackColor = false;
+            this.btnAgergar.Click += new System.EventHandler(this.btnAgergar_Click);
             // 
             // nudCantidad
             // 
@@ -333,12 +335,28 @@
             this.btnRegistrarVenta.IconChar = FontAwesome.Sharp.IconChar.None;
             this.btnRegistrarVenta.IconColor = System.Drawing.Color.Black;
             this.btnRegistrarVenta.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnRegistrarVenta.Location = new System.Drawing.Point(726, 264);
+            this.btnRegistrarVenta.Location = new System.Drawing.Point(717, 279);
             this.btnRegistrarVenta.Name = "btnRegistrarVenta";
             this.btnRegistrarVenta.Size = new System.Drawing.Size(74, 101);
             this.btnRegistrarVenta.TabIndex = 5;
             this.btnRegistrarVenta.Text = "Registrar Venta";
             this.btnRegistrarVenta.UseVisualStyleBackColor = false;
+            this.btnRegistrarVenta.Click += new System.EventHandler(this.btnRegistrarVenta_Click);
+            // 
+            // iconButton1
+            // 
+            this.iconButton1.BackColor = System.Drawing.Color.Gold;
+            this.iconButton1.ForeColor = System.Drawing.Color.Black;
+            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.iconButton1.IconColor = System.Drawing.Color.Black;
+            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton1.Location = new System.Drawing.Point(713, 231);
+            this.iconButton1.Name = "iconButton1";
+            this.iconButton1.Size = new System.Drawing.Size(91, 42);
+            this.iconButton1.TabIndex = 4;
+            this.iconButton1.Text = "Limpiar";
+            this.iconButton1.UseVisualStyleBackColor = false;
+            this.iconButton1.Click += new System.EventHandler(this.iconButton1_Click);
             // 
             // frmRegistrarVentas
             // 
@@ -346,6 +364,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(816, 401);
+            this.Controls.Add(this.iconButton1);
             this.Controls.Add(this.btnRegistrarVenta);
             this.Controls.Add(this.gbTipodePago);
             this.Controls.Add(this.gbCarrito);
@@ -354,6 +373,7 @@
             this.Controls.Add(this.lblVentas);
             this.Name = "frmRegistrarVentas";
             this.Text = "frmRegistrarVentas";
+            this.Load += new System.EventHandler(this.frmRegistrarVentas_Load);
             this.gbDatosCliente.ResumeLayout(false);
             this.gbDatosCliente.PerformLayout();
             this.gbProducto.ResumeLayout(false);
@@ -375,12 +395,11 @@
         private System.Windows.Forms.GroupBox gbCarrito;
         private System.Windows.Forms.DataGridView dvgCarrito;
         private System.Windows.Forms.Label lblNombre;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox2;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox3;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.MaskedTextBox mtbTelefono;
+        private System.Windows.Forms.MaskedTextBox mtbDui;
+        private System.Windows.Forms.TextBox txtDireccion;
+        private System.Windows.Forms.TextBox txtNombreCliente;
+        private System.Windows.Forms.TextBox txtApellido;
         private System.Windows.Forms.Label lblDireccion;
         private System.Windows.Forms.Label lblCorreo;
         private System.Windows.Forms.Label lblDui;
@@ -394,5 +413,7 @@
         private System.Windows.Forms.ComboBox cmbTipoPago;
         private FontAwesome.Sharp.IconButton btnRegistrarVenta;
         private System.Windows.Forms.Label lblTotal;
+        private System.Windows.Forms.TextBox txtCorreo;
+        private FontAwesome.Sharp.IconButton iconButton1;
     }
 }

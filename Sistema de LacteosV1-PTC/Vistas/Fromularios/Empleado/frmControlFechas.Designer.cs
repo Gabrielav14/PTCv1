@@ -36,6 +36,7 @@
             this.btnBuscar = new FontAwesome.Sharp.IconButton();
             this.btnLimpiar = new FontAwesome.Sharp.IconButton();
             this.dvgResultados = new System.Windows.Forms.DataGridView();
+            this.lblTotalVentas = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dvgResultados)).BeginInit();
             this.SuspendLayout();
             // 
@@ -59,9 +60,9 @@
             this.lblControlFechas.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblControlFechas.Location = new System.Drawing.Point(290, 9);
             this.lblControlFechas.Name = "lblControlFechas";
-            this.lblControlFechas.Size = new System.Drawing.Size(227, 29);
+            this.lblControlFechas.Size = new System.Drawing.Size(221, 29);
             this.lblControlFechas.TabIndex = 2;
-            this.lblControlFechas.Text = "Control de Fechas";
+            this.lblControlFechas.Text = "Control de Ventas";
             // 
             // lblDesde
             // 
@@ -96,6 +97,7 @@
             this.btnBuscar.TabIndex = 5;
             this.btnBuscar.Text = "Buscar";
             this.btnBuscar.UseVisualStyleBackColor = false;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // btnLimpiar
             // 
@@ -110,21 +112,33 @@
             this.btnLimpiar.TabIndex = 6;
             this.btnLimpiar.Text = "Limpiar";
             this.btnLimpiar.UseVisualStyleBackColor = false;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
             // 
             // dvgResultados
             // 
             this.dvgResultados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dvgResultados.Location = new System.Drawing.Point(100, 148);
+            this.dvgResultados.Location = new System.Drawing.Point(31, 114);
             this.dvgResultados.Name = "dvgResultados";
-            this.dvgResultados.Size = new System.Drawing.Size(572, 224);
+            this.dvgResultados.Size = new System.Drawing.Size(590, 256);
             this.dvgResultados.TabIndex = 7;
+            // 
+            // lblTotalVentas
+            // 
+            this.lblTotalVentas.AutoSize = true;
+            this.lblTotalVentas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalVentas.Location = new System.Drawing.Point(635, 206);
+            this.lblTotalVentas.Name = "lblTotalVentas";
+            this.lblTotalVentas.Size = new System.Drawing.Size(13, 20);
+            this.lblTotalVentas.TabIndex = 8;
+            this.lblTotalVentas.Text = ".";
             // 
             // frmControlFechas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(804, 372);
+            this.ClientSize = new System.Drawing.Size(797, 372);
+            this.Controls.Add(this.lblTotalVentas);
             this.Controls.Add(this.dvgResultados);
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.btnBuscar);
@@ -151,5 +165,6 @@
         private FontAwesome.Sharp.IconButton btnBuscar;
         private FontAwesome.Sharp.IconButton btnLimpiar;
         private System.Windows.Forms.DataGridView dvgResultados;
+        private System.Windows.Forms.Label lblTotalVentas;
     }
 }

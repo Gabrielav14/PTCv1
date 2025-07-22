@@ -13,9 +13,11 @@ namespace Vistas.Fromularios.Empleado
 {
     public partial class frmDashboardEmpleado : Form
     {
+       
         public frmDashboardEmpleado()
         {
             InitializeComponent();
+            
         }
 
         private void btnInventario_Click(object sender, EventArgs e)
@@ -102,7 +104,7 @@ namespace Vistas.Fromularios.Empleado
         private void btnRegistrarVentas_Click(object sender, EventArgs e)
         {
             pnlContenedor.Controls.Clear();
-
+            
             frmRegistrarVentas form = new frmRegistrarVentas();
             form.TopLevel = false;
             form.FormBorderStyle = FormBorderStyle.None;

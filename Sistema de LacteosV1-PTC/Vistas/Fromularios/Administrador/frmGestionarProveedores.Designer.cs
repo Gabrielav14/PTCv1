@@ -29,11 +29,8 @@
         private void InitializeComponent()
         {
             this.mtbTelefono = new System.Windows.Forms.MaskedTextBox();
-            this.mtbCorreo = new System.Windows.Forms.MaskedTextBox();
             this.dtpFechaIngreso = new System.Windows.Forms.DateTimePicker();
             this.lblFechaIngreso = new System.Windows.Forms.Label();
-            this.lblEspecialidad = new System.Windows.Forms.Label();
-            this.txtEspecialidad = new System.Windows.Forms.TextBox();
             this.lblCorreo = new System.Windows.Forms.Label();
             this.lbltelefono = new System.Windows.Forms.Label();
             this.lblProveedor = new System.Windows.Forms.Label();
@@ -48,6 +45,7 @@
             this.txtNombreEmpresa = new System.Windows.Forms.TextBox();
             this.lblBuscar = new System.Windows.Forms.Label();
             this.txtBuscar = new System.Windows.Forms.TextBox();
+            this.txtCorreo = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProveedores)).BeginInit();
             this.SuspendLayout();
             // 
@@ -59,17 +57,9 @@
             this.mtbTelefono.Size = new System.Drawing.Size(100, 20);
             this.mtbTelefono.TabIndex = 78;
             // 
-            // mtbCorreo
-            // 
-            this.mtbCorreo.Location = new System.Drawing.Point(266, 195);
-            this.mtbCorreo.Mask = "aaaaa@aaaaa.aa";
-            this.mtbCorreo.Name = "mtbCorreo";
-            this.mtbCorreo.Size = new System.Drawing.Size(127, 20);
-            this.mtbCorreo.TabIndex = 77;
-            // 
             // dtpFechaIngreso
             // 
-            this.dtpFechaIngreso.Location = new System.Drawing.Point(444, 195);
+            this.dtpFechaIngreso.Location = new System.Drawing.Point(398, 195);
             this.dtpFechaIngreso.Name = "dtpFechaIngreso";
             this.dtpFechaIngreso.Size = new System.Drawing.Size(195, 20);
             this.dtpFechaIngreso.TabIndex = 76;
@@ -78,34 +68,17 @@
             // 
             this.lblFechaIngreso.AutoSize = true;
             this.lblFechaIngreso.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFechaIngreso.Location = new System.Drawing.Point(440, 172);
+            this.lblFechaIngreso.Location = new System.Drawing.Point(387, 172);
             this.lblFechaIngreso.Name = "lblFechaIngreso";
             this.lblFechaIngreso.Size = new System.Drawing.Size(138, 20);
             this.lblFechaIngreso.TabIndex = 75;
             this.lblFechaIngreso.Text = "Fecha de Ingreso:";
             // 
-            // lblEspecialidad
-            // 
-            this.lblEspecialidad.AutoSize = true;
-            this.lblEspecialidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEspecialidad.Location = new System.Drawing.Point(426, 106);
-            this.lblEspecialidad.Name = "lblEspecialidad";
-            this.lblEspecialidad.Size = new System.Drawing.Size(99, 20);
-            this.lblEspecialidad.TabIndex = 74;
-            this.lblEspecialidad.Text = "Especialidad";
-            // 
-            // txtEspecialidad
-            // 
-            this.txtEspecialidad.Location = new System.Drawing.Point(430, 129);
-            this.txtEspecialidad.Name = "txtEspecialidad";
-            this.txtEspecialidad.Size = new System.Drawing.Size(134, 20);
-            this.txtEspecialidad.TabIndex = 73;
-            // 
             // lblCorreo
             // 
             this.lblCorreo.AutoSize = true;
             this.lblCorreo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCorreo.Location = new System.Drawing.Point(262, 172);
+            this.lblCorreo.Location = new System.Drawing.Point(420, 106);
             this.lblCorreo.Name = "lblCorreo";
             this.lblCorreo.Size = new System.Drawing.Size(144, 20);
             this.lblCorreo.TabIndex = 72;
@@ -148,6 +121,7 @@
             this.btnLimpiar.TabIndex = 68;
             this.btnLimpiar.Text = "Limpiar";
             this.btnLimpiar.UseVisualStyleBackColor = false;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
             // 
             // btnEliminar
             // 
@@ -178,6 +152,7 @@
             this.btnAgregar.TabIndex = 65;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = false;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // lblNombreProveedor
             // 
@@ -229,20 +204,25 @@
             this.txtBuscar.Size = new System.Drawing.Size(245, 20);
             this.txtBuscar.TabIndex = 80;
             // 
+            // txtCorreo
+            // 
+            this.txtCorreo.Location = new System.Drawing.Point(444, 129);
+            this.txtCorreo.Name = "txtCorreo";
+            this.txtCorreo.Size = new System.Drawing.Size(176, 20);
+            this.txtCorreo.TabIndex = 81;
+            // 
             // frmGestionarProveedores
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(793, 484);
+            this.Controls.Add(this.txtCorreo);
             this.Controls.Add(this.txtBuscar);
             this.Controls.Add(this.lblBuscar);
             this.Controls.Add(this.mtbTelefono);
-            this.Controls.Add(this.mtbCorreo);
             this.Controls.Add(this.dtpFechaIngreso);
             this.Controls.Add(this.lblFechaIngreso);
-            this.Controls.Add(this.lblEspecialidad);
-            this.Controls.Add(this.txtEspecialidad);
             this.Controls.Add(this.lblCorreo);
             this.Controls.Add(this.lbltelefono);
             this.Controls.Add(this.lblProveedor);
@@ -257,6 +237,7 @@
             this.Controls.Add(this.txtNombreEmpresa);
             this.Name = "frmGestionarProveedores";
             this.Text = "frmGestionarProveedores";
+            this.Load += new System.EventHandler(this.frmGestionarProveedores_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvProveedores)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -266,11 +247,8 @@
         #endregion
 
         private System.Windows.Forms.MaskedTextBox mtbTelefono;
-        private System.Windows.Forms.MaskedTextBox mtbCorreo;
         private System.Windows.Forms.DateTimePicker dtpFechaIngreso;
         private System.Windows.Forms.Label lblFechaIngreso;
-        private System.Windows.Forms.Label lblEspecialidad;
-        private System.Windows.Forms.TextBox txtEspecialidad;
         private System.Windows.Forms.Label lblCorreo;
         private System.Windows.Forms.Label lbltelefono;
         private System.Windows.Forms.Label lblProveedor;
@@ -285,5 +263,6 @@
         private System.Windows.Forms.TextBox txtNombreEmpresa;
         private System.Windows.Forms.Label lblBuscar;
         private System.Windows.Forms.TextBox txtBuscar;
+        private System.Windows.Forms.TextBox txtCorreo;
     }
 }

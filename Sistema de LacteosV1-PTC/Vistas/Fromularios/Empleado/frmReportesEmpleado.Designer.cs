@@ -34,8 +34,6 @@
             this.lblDesde = new System.Windows.Forms.Label();
             this.lblHasta = new System.Windows.Forms.Label();
             this.dgvReportes = new System.Windows.Forms.DataGridView();
-            this.llblTotalGeneral = new System.Windows.Forms.Label();
-            this.lblTotal = new System.Windows.Forms.Label();
             this.btnMostrarTodo = new FontAwesome.Sharp.IconButton();
             this.btnFiltrar = new FontAwesome.Sharp.IconButton();
             ((System.ComponentModel.ISupportInitialize)(this.dgvReportes)).BeginInit();
@@ -47,9 +45,9 @@
             this.lblTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitulo.Location = new System.Drawing.Point(261, 0);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(276, 29);
+            this.lblTitulo.Size = new System.Drawing.Size(227, 29);
             this.lblTitulo.TabIndex = 0;
-            this.lblTitulo.Text = "Mis reportes de Venta:";
+            this.lblTitulo.Text = "Control de Fechas";
             // 
             // dtpInicio
             // 
@@ -90,28 +88,9 @@
             this.dgvReportes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvReportes.Location = new System.Drawing.Point(117, 153);
             this.dgvReportes.Name = "dgvReportes";
-            this.dgvReportes.Size = new System.Drawing.Size(592, 187);
+            this.dgvReportes.Size = new System.Drawing.Size(592, 199);
             this.dgvReportes.TabIndex = 7;
-            // 
-            // llblTotalGeneral
-            // 
-            this.llblTotalGeneral.AutoSize = true;
-            this.llblTotalGeneral.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.llblTotalGeneral.Location = new System.Drawing.Point(304, 355);
-            this.llblTotalGeneral.Name = "llblTotalGeneral";
-            this.llblTotalGeneral.Size = new System.Drawing.Size(13, 20);
-            this.llblTotalGeneral.TabIndex = 8;
-            this.llblTotalGeneral.Text = ".";
-            // 
-            // lblTotal
-            // 
-            this.lblTotal.AutoSize = true;
-            this.lblTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotal.Location = new System.Drawing.Point(158, 355);
-            this.lblTotal.Name = "lblTotal";
-            this.lblTotal.Size = new System.Drawing.Size(140, 20);
-            this.lblTotal.TabIndex = 9;
-            this.lblTotal.Text = "Total Vendido: $";
+            this.dgvReportes.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvReportes_CellContentClick);
             // 
             // btnMostrarTodo
             // 
@@ -125,6 +104,7 @@
             this.btnMostrarTodo.TabIndex = 6;
             this.btnMostrarTodo.Text = "Mostrar Todo";
             this.btnMostrarTodo.UseVisualStyleBackColor = false;
+            this.btnMostrarTodo.Click += new System.EventHandler(this.btnMostrarTodo_Click);
             // 
             // btnFiltrar
             // 
@@ -138,6 +118,7 @@
             this.btnFiltrar.TabIndex = 3;
             this.btnFiltrar.Text = "Filtrar";
             this.btnFiltrar.UseVisualStyleBackColor = false;
+            this.btnFiltrar.Click += new System.EventHandler(this.btnFiltrar_Click);
             // 
             // frmReportesEmpleado
             // 
@@ -145,8 +126,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(804, 384);
-            this.Controls.Add(this.lblTotal);
-            this.Controls.Add(this.llblTotalGeneral);
             this.Controls.Add(this.dgvReportes);
             this.Controls.Add(this.btnMostrarTodo);
             this.Controls.Add(this.lblHasta);
@@ -173,7 +152,5 @@
         private System.Windows.Forms.Label lblHasta;
         private FontAwesome.Sharp.IconButton btnMostrarTodo;
         private System.Windows.Forms.DataGridView dgvReportes;
-        private System.Windows.Forms.Label llblTotalGeneral;
-        private System.Windows.Forms.Label lblTotal;
     }
 }

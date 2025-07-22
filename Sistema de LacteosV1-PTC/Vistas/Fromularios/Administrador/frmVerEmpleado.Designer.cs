@@ -74,6 +74,7 @@
             this.btnEliminar.TabIndex = 3;
             this.btnEliminar.Text = "Eiminar";
             this.btnEliminar.UseVisualStyleBackColor = false;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // btnEditar
             // 
@@ -96,6 +97,7 @@
             this.btnActualizar.TabIndex = 5;
             this.btnActualizar.Text = "Actualizar";
             this.btnActualizar.UseVisualStyleBackColor = false;
+            this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
             // 
             // lblEmpleados
             // 
@@ -122,6 +124,7 @@
             this.Controls.Add(this.btnBuscar);
             this.Name = "frmVerEmpleado";
             this.Text = "frmVerEmpleado";
+            this.Load += new System.EventHandler(this.frmVerEmpleado_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dvgEmpleados)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
